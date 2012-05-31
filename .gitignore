@@ -1,0 +1,12 @@
+#*.[o]
+#*.bin
+#*.log
+#moc_*.cxx
+#*.cmake
+#*.make
+CMakeFiles
+build
+notes
+freecell
+#Makefile*
+#*.swp
