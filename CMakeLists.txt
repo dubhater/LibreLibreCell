@@ -8,3 +8,5 @@ add_definitions("-DLIBRELIBRECELL_VERSION=\"${LIBRELIBRECELL_VERSION_GITREV}\"")
 add_definitions("-Wall -pedantic")
 
 add_subdirectory(src)
+
+install(FILES README.txt DESTINATION share/doc/librelibrecell/)
