@@ -894,6 +894,7 @@ int LibreLibreCell::moveCardSequence(QList<int> sequence, int source, int target
    {
       m_columns[target]->layout->addWidget2(m_columns[source]->layout->takeAt(sourceCardCount-cardsToMove)->widget(), Qt::AlignHCenter | Qt::AlignTop);
    }
+   repaint(rect());
 
    return cardsToMove;
 }
